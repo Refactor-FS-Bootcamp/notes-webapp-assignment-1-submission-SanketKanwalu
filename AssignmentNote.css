@@ -1,0 +1,49 @@
+h1{
+    color: darkmagenta;
+    line-height: 1;
+    font-size: 3.5rem;
+}
+header form {
+    display: flex;
+    flex-direction: column ;
+    width: 40rem;
+}
+
+form > *{
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 3px;
+    
+}
+form button{
+    background-color: darksalmon;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all .3s;
+}
+.note{
+    padding: 1rem;
+    background-color: rgb(201, 177, 177);
+    border-radius: 5px;
+    margin: 1rem 0;
+
+}
+.notetext,
+.one{
+    font-size: 1.5rem;
+}
+.notet{
+    padding: 7px;
+}
+.classbtn,.editbtn{
+    padding: 7px;
+    margin-top: 5px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.notet{
+    color: darkblue;
+}
